@@ -4,23 +4,27 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="./css/reset.css"> -->
    <title>Document</title>
 </head>
-<body>
-   <h1>Шпаргалка по основним командам Git</h1>
+<body style="font-family: Arial, Helvetica, sans-serif">
+   <div style="margin: 0px 0px 0px 10px; width: 500px;">
+   <h1 style="text-align: center;">Шпаргалка по основним командам Git</h1>
    <ul>
       <li>git config --global user.name blabla</li>
       <li>git config --global user.email blabal@bla</li>
       <li>git init</li>
       <li>git status</li>
       <li>git add</li>
+      <!-- додає до індексації файли\папки, або . додасть все в папці. -->
       <li>git commit</li>
+      <!-- git commit -м створити коміт -->
       <li>git log</li>
       <!-- показує хто і які зміни вносив -->
       <li>git checkout</li>
-      <!--  -->
+      <!-- перемикання між гілками , git checkout -b ＜new-branch＞ створює і одразу перемикає на нову гілку-->
       <li>git branch</li>
-      <!-- виводить список гілок в репозиторії -->
+      <!-- виводить список гілок в репозиторії(+назва створює гілку), git branch -D видаляє гілку(маленька d дає шанс), з репозиторію git push origin --delete назва, або git push origin-->
       <li>git push</li>
       <!--  -->
       <li>git pull</li>
@@ -30,10 +34,10 @@
       <li>git clone</li>
       <!--  -->
    </ul>
-   <span>.gitignore це файл(в кореневому каталозі репозиторію) в якому вказуються файли, папки які не індексуються(ігноруються) Git  </span>
-   <h3>Advanced</h3>
-   <h4>Записати такi команди:</h4>
-   <ul>
+   <p><b>.gitignore це</b> файл(в кореневому каталозі репозиторію) в якому вказуються файли, папки які не індексуються(ігноруються) Git  </p>
+   <p style="margin: 0px 0px 0px 0px;">Advanced</p>
+   <p style="margin: 3px 0px 0px 0px;">Kоманди:</p>
+   <ul style="margin: 0px 0px 0px 0px;">
       <li>git revert</li>
       <li>git reset</li>
       <li>git rebase</li>
@@ -41,5 +45,6 @@
       <li>git stash</li>
    </ul>
    <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">Підключити github через SSH</a>
+   </div>
 </body>
 </html>
