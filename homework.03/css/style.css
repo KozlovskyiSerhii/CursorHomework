@@ -1,0 +1,43 @@
+body {
+   background-color: #E5E5E5;
+   margin: 0px 0px 0px 0px;
+}
+.Banner_1 {
+font-family: 'Inter', sans-serif;
+display: flex;
+width: 1440px;
+height:72px;
+background-color: #0B2239;
+margin: 228px 24px 24px 24px;
+}
+.text_1{
+width: 922px;
+height: 40px;
+margin: 16px 32px 16px 120px;
+color: #ffffff;
+font-size: 13px;
+line-height: 20px;
+text-align: left;
+}
+.link_1{
+width: 106px;
+height: 36px;
+margin: 18px 0px 18px;
+}
+.link_1 a{
+   font-size: 12px;
+   line-height: 20px;
+   font-weight: 600;
+   color: #4AD295;
+}
+.button_1 {
+padding: 0px;
+width: 130px;
+height: 36px;
+border: none;
+box-sizing: border-box;
+margin: 18px 96px 18px 20px;
+background-color: #4AD295;
+text-align: center;
+border-radius: 2px;
+}
