@@ -1,8 +1,10 @@
 body {
    background-color: #E5E5E5;
+   width: 1488px;
    margin: 0px 0px 0px 0px;
 }
-.Banner_1 {
+
+.banner_1 {
 font-family: 'Inter', sans-serif;
 display: flex;
 width: 1440px;
@@ -10,6 +12,7 @@ height:72px;
 background-color: #0B2239;
 margin: 228px 24px 24px 24px;
 }
+
 .text_1{
 width: 922px;
 height: 40px;
@@ -19,6 +22,7 @@ font-size: 13px;
 line-height: 20px;
 text-align: left;
 }
+
 .link_1{
 display: flex;
 width: 106px;
@@ -46,6 +50,7 @@ background-color: #4AD295;
 text-align: center;
 border-radius: 2px;
 }
+
 .banner_2{
    width: 1440px;
    height: 52px;;
@@ -54,11 +59,13 @@ border-radius: 2px;
    margin: 0px 24px;
    background-color: #2B2627;
 }
+
 .img_1,.img_2 {
 height: 16px;
 width: 16px;
 margin-top: 18px;
 }
+
 .text_2,.text_2 a{
 color: #ffffff;
 font-family: Inter;
