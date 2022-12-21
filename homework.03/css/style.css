@@ -41,3 +41,28 @@ background-color: #4AD295;
 text-align: center;
 border-radius: 2px;
 }
+.banner_2{
+   width: 1440px;
+   height: 52px;;
+   display: flex;
+   justify-content: center;
+   margin: 0px 24px;
+   background-color: #2B2627;
+}
+.img_1,.img_2 {
+height: 16px;
+width: 16px;
+margin-top: 18px;
+}
+.text_2,.text_2 a{
+color: #ffffff;
+font-family: Inter;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+}
+.text_2 {
+   margin: 18px 8px;
+}
