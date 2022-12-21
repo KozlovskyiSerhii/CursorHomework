@@ -20,16 +20,21 @@ line-height: 20px;
 text-align: left;
 }
 .link_1{
+display: flex;
 width: 106px;
 height: 36px;
 margin: 18px 0px 18px;
 }
+
 .link_1 a{
+   height: 36px;
    font-size: 12px;
    line-height: 20px;
    font-weight: 600;
    color: #4AD295;
+   margin: 8px 0px 0px 0px;
 }
+
 .button_1 {
 padding: 0px;
 width: 130px;
