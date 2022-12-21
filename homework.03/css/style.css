@@ -23,16 +23,15 @@ line-height: 20px;
 text-align: left;
 }
 .link_1 {
+   display: flex;
    width: 106px;
    margin: 18px 0px 18px 0px;
    height: 36px;
-   text-align: center;
    justify-content: center;
-   padding-top: 8px;
+   align-items: center;
 }
 
 .link_1 a{
-   height: 36px;
    font-size: 12px;
    line-height: 20px;
    font-weight: 600;
