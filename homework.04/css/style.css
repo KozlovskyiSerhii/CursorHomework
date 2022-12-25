@@ -1,0 +1,17 @@
+body {
+   height: auto;
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+
+
+
+
+
+
+header {
+   background-color: #ED4C5C;
+   display: flex;
+}
