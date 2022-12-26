@@ -1,6 +1,7 @@
 body {
    height: auto;
    width: 100%;
+   max-width: 1440px;
 }
 /* @media screen and (min-width: 300px) {
    body, .header, .main, .footer {
@@ -63,7 +64,7 @@ height: 500px;
    width: 533px;
    height: 311px;
    box-sizing: border-box;
-   margin: 94px 216px 95px 0px;
+   margin: 94px 0px 95px 0px;
 
 }
 .img_left {
@@ -89,7 +90,7 @@ z-index: 1;
 .img_right {
    position: absolute;
    top: 22px;
-   right: 0;
+   left: 150px;
    width: 383px;
    height: 267px;
 }
@@ -151,7 +152,7 @@ input {
    margin: 0px 25px 24px 0px;
 }
 .input_lastname {
-   margin: 0px 0px 0px 0px;
+   margin: 0px 0px 24px 0px;
    width: 255px;
    height: 60px
 }
