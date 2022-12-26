@@ -2,10 +2,10 @@ body {
    height: auto;
    width: 100%;
 }
-@media screen and (min-width: 900px) {
-   body {
+@media screen and (min-width: 400px) {
+   body, .header, .main, .footer {
       height: auto;
-         width: 1440px;
+      width: 1550px;
    }
 }
 .header {
