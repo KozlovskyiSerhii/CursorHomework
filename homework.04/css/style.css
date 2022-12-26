@@ -2,6 +2,12 @@ body {
    height: auto;
    width: 100%;
 }
+@media screen and (min-width: 900px) {
+   body {
+      height: auto;
+         width: 1440px;
+   }
+}
 .header {
 background-color: #ED4C5C;
 display: flex;
