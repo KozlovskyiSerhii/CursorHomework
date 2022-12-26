@@ -91,3 +91,138 @@ z-index: 1;
    z-index: 2;
    opacity: 1;
 }
+.main {
+height: 500px;
+margin: 0px 0px 45px 0px;
+background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.footer {
+   font-family: 'Lato';
+   font-style: normal;
+   display: flex;
+   background-color: #FAFAFA;
+   height: 435px;
+}
+.footer_one {
+   width: 259px;
+   height: 264px;
+   margin: 85px 30px 86px 161px;
+}
+.footer_one h3 {
+   width: 65px;
+   height: 22px;
+   margin: 0px 0px 33px 5px;
+}
+.text_address {
+   width: 254px;
+   height: 54px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 150%;
+   margin: 0px 0px 141px 5px;
+   text-align: left;
+}
+.text_copyright {
+   width: 155px;
+   height: 14px;
+   height: 14px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #101010;
+   margin: 0px 0px 86px 5px;
+}
+.footer_two {
+   width: 254px;
+   height: 164px;
+   margin: 85px 30px 186px 0px;
+}
+.footer_two h3 {
+margin: 0px 0px 28px 0px;
+}
+.list_footer {
+list-style-type: none;
+padding: 0px;
+margin: 0px 0px 0px 0px;
+}
+.list_footer li {
+   margin-top: 5px;
+}
+li a {
+      font-family: 'Lato';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 160%;
+         text-transform: capitalize;
+         color: #000000;
+}
+.footer_three {
+   width: 122px;
+   height: 128px;
+   margin: 85px 166px 0px 0px;
+
+}
+.footer_three h3 {
+margin: 0px 0px 30px 0px;   
+}
+.mail {
+margin: 0px 0px 11px 0px;
+width: 122px;
+height: 14px;
+}
+.mail a {
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #101010;
+}
+.phone {
+   margin: 0px 0px 22px 0px;
+   width: 96px;
+   height: 14px;
+}
+.phone a {
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   color: #121212;
+}
+.link_social_media {
+   width: 66px;
+   height: 14px;
+   display: flex;
+   justify-content: space-between;
+}
+.footer_four {
+width: 216px;
+margin-top: 85px;
+}
+.footer_four h3 {
+margin: 0px 0px 33px 0px;
+}
+.img_visa {
+width: 216px;
+height: 31px;
+}
+h3 {
+   width: 120px;
+   height: 22px;
+   color: #101010;
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 22px;
+}
