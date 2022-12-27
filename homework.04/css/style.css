@@ -4,6 +4,9 @@ body {
    margin: 0px 0px 0px 0px; 
    min-width: 1440px;
 }
+a {
+   text-decoration: none;
+}
 /* @media screen and (min-width: 300px) {
    body, .header, .main, .footer {
       height: auto;
@@ -59,9 +62,13 @@ height: 500px;
    width: 32px;
    height: 32px;
 }
+.link_applestore img {
+   margin: 2px 0px 0px 2px;
+}
 .link_microsofstore {
    width: 24px;
    height: 24px;
+   margin-top: 4px;
 }
 .section_header_right {
    position: relative;
