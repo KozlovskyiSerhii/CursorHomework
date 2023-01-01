@@ -77,3 +77,7 @@ font-family: Inter;
 .text_2 {
    margin: 18px 8px;
 }
+button:hover {
+   cursor: auto;
+   cursor: pointer;
+}
