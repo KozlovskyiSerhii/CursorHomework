@@ -7,6 +7,9 @@ body {
 a {
    text-decoration: none;
 }
+a:hover {
+   cursor: pointer;
+}
 /* @media screen and (min-width: 300px) {
    body, .header, .main, .footer {
       height: auto;
@@ -194,6 +197,13 @@ input {
    background-color: #ED4C5C;
    color: #FFFFFF;
    margin-top: 27px;
+   cursor: pointer;
+}
+.input_submit:hover {
+   background-color: rgb(233, 41, 16);
+   cursor: pointer;
+   color: #000000;
+   border-radius: 1px solid #000000;
 }
 .input_firstname, .input_lastname, .input_tel, .input_ration:hover {
 color: #000000;
