@@ -49,7 +49,11 @@ th, td {
    box-sizing: border-box;
    width: 25%;
 }
-th, td {
+td {
+   line-height: 20px;
+   font-size: 1.1em;
+}
+th {
    line-height: 20px;
    font-size: 1.1em;
    color: #ffffff;
