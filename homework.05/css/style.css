@@ -18,6 +18,28 @@
 #size_right_th {
    width: 245px;
 }
+#size_left {
+   width: 525px;
+}
+
+#size_centr {
+   width: 280px;
+}
+
+#size_right {
+   width: 245px;
+}
+#size_left_three {
+   width: 525px;
+}
+
+#size_centr_three {
+   width: 280px;
+}
+
+#size_right_three {
+   width: 245px;
+}
 .circle {
    width: 5px;
    height: 5px;
@@ -97,10 +119,10 @@ input[type="search"] {
    width: 98%;
    font-size: 16px;
    background-image: url(../icon/magnifier.png);
-   background-size: 16px;
+   background-size: 15px;
    background-repeat: no-repeat;
-   background-position: left center;
-   padding-left: 20px;
+   background-position: left 10px center;
+   padding-left: 30px;
    background-color: #2C2C2C;
    border-radius: 8px;
    color: aliceblue;
@@ -113,6 +135,7 @@ input[type="search"]:focus {
    padding: 0px;
    color: #ffffff;
    width: 98%;
+   padding-left: 10px;
 }
 /* input::-webkit-search-cancel-button {
 -webkit-appearance: none;
