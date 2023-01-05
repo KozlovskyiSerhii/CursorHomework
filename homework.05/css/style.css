@@ -129,7 +129,7 @@ input[type="search"] {
    border: 1px solid rgb(131, 130, 130);
 }
 input[type="search"]:focus {
-   border: 1px solid 777575;
+   border: 1px solid #777575;
    outline: none;
    background: none;
    padding: 0px;
