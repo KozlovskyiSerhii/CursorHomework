@@ -1,0 +1,293 @@
+@import url("../css/font.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+   background-color: #2C2C2D;
+}
+.color-white {
+   color: #FFFFFF;
+}
+.color-green {
+color: #23BCB3;
+}
+
+.flex-container {
+   background: radial-gradient(121% 121% at 32% 100%, #9799A0 0%, #2C2C2D 100%);
+   padding: 180px 0px 0px 220px;
+   display: flex;
+   width: 1600px;
+   height: 1200px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+.container-first {
+   margin: 0px 320px 0px 0px;
+}
+.container-size {
+width: 390px;
+height: 844px;
+box-shadow: -40px 60px 150px rgba(11, 10, 10, 0.7);
+border-radius: 46px;
+box-sizing: border-box;
+}
+.container-img {
+   background: url(../img/wallpaper1.jpg), linear-gradient(167.95deg, #2E335A 0%, #1C1B33 100%);
+}
+
+
+.container-two-img {
+   background: linear-gradient(168.32deg, #1A1C24 1.9%, #57586A 98.29%);
+}
+.container-header {
+   box-sizing: border-box;
+   width: 100%;
+   margin: 0px 0px 175px 0px;
+   height: 344px;
+}
+
+.sidebar {
+   display: flex;
+   height: 48px;
+   width: 100%;
+   margin: 0px 0px 0px 0px;
+   justify-content: space-between;
+   box-sizing: border-box;
+   padding-left: 31px;
+   padding-right: 27px;
+
+}
+.left-side {
+   width: 54px;
+   height: 20px;
+   margin-top: 19px;
+   font-family: 'SF Pro Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 22px;
+}
+.right-side {
+   width: 78px;
+   height: 13px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 23px;
+}
+.img-mobile {
+   width: 18px;
+   height: 12px;
+}
+.img-wifi {
+   width: 18px;
+   height: 12px;
+}
+.img-battery {
+   height: 12px;
+   width: 28px;
+}
+
+.main-row {
+   width: 130px;
+   height: 183px;
+   box-sizing: border-box;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 50px auto 0px;
+   font-family: 'SF Pro Display';
+   font-style: normal;
+}
+.city-name {
+   width: 129px;
+   height: 41px;
+   font-weight: 400;
+   font-size: 34px;
+   line-height: 41px;
+   text-align: center;
+   letter-spacing: 0.374px;
+   margin-bottom: 11px;
+}
+.temperatures {
+   width: 127px;
+   height: 70px;
+   font-weight: 200;
+   font-size: 96px;
+   line-height: 70px;
+   text-align: center;
+   letter-spacing: 0.374px;
+   margin-bottom: 11px;
+}
+
+.sky-covered {
+   width: 115px;
+   height: 24px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   margin-left: 7px;
+}
+
+.high-temperatures {
+   width: 57.5px;
+   height: 24px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: left;
+   margin-left: 7px;
+}
+
+.low-temperatures {
+   width: 57.5px;
+   height: 24px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: right;
+   margin-left: 7px;
+}
+
+.container-footer {
+   width: 390px;
+   height: 325px;   
+   background: linear-gradient(135.73deg, rgba(46, 51, 90, 0.2) 11.01%, rgba(28, 27, 51, 0.2) 95.06%);
+   box-shadow: inset 0px 1px 0px #FFFFFF;
+   backdrop-filter: blur(25px);
+   border-radius: 44px 44px 46px 46px;
+   box-sizing: border-box;
+   overflow: hidden;
+   background-image: url("../img/RectangleTwo.png");
+   background-position: left -2px top -2px;
+   background-repeat: no-repeat;
+
+}
+.container-forecast {
+   width: 390px;
+   height: 49px;
+   box-sizing: border-box;
+   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+   padding: 9px 27px 0px 15px ;
+
+}
+.separator {
+   width: 388px;
+   height: 0px;
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.indicator{
+   margin: 0px auto 19px;
+   width: 49px;
+   height: 5px;
+   background: rgba(12, 11, 11, 0.3);
+   border-radius: 10px;
+}
+.forecast-row {
+   display: flex;
+   height: 17px;
+   justify-content: space-between;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   text-align: center;
+   letter-spacing: 0.374px;
+   color: rgba(191, 192, 201, 0.53);
+}
+.container-weather-row {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 12px;
+   width: 420px;
+   height: 146px;
+   margin-left: 21px;
+   margin-top: 16px;
+}
+.container-weather {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   align-items: center;
+   width: 60px;
+   height: 146px;
+   background: rgba(19, 21, 28, 0.2);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px rgba(255, 255, 255, 0.25);
+   border-radius: 30px;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   padding-top: 15px;
+   padding-bottom: 5px;
+}
+.container-weather-hour {
+   font-size: 15px;
+   text-align: center;
+   letter-spacing: 0.374px;
+   line-height: 41px;
+   width: 43px;
+   height: 41px;
+
+}
+.container-weather-img {
+   position: absolute;
+background-image: url("../img/Moon.svg");
+height: 32px;
+width: 32px;
+box-sizing: border-box;
+top: 52px;
+left: 14px;
+}
+
+.container-weather-percent{
+font-size: 13px;
+text-align: center;
+letter-spacing: 0.374px;
+line-height: 41px;
+width: 30px;
+height: 41px;
+margin-top: 15px;
+}
+
+.container-weather-degree {
+font-size: 15px;
+letter-spacing: 0.374px;
+width: 30px;
+text-align: center;
+}
+
+.container-weather:nth-child(2):focus,.container-weather:nth-child(2):hover {
+   background: #13151C;
+   border: 1px solid rgba(255, 255, 255, 0.5);
+   box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px rgba(255, 255, 255, 0.25);
+   border-radius: 30px;
+}
+.container-weather:nth-child(2):focus .some-hover {
+   z-index:-1 ;
+}
+.container-weather:nth-child(2):hover .some-hover {
+   z-index: -1;
+}
+.container-weather:nth-child(2):hover .some-img {
+top: 59px;
+left: 14px;
+}
+.container-button {
+   position: relative;
+}
+.Rectanglefooter{
+   width: 390px;
+   height: 89px;
+   margin-top: 22px;
+   backdrop-filter: blur(25px);
+}
+.Rectanglemiddle {
+   position: absolute;
+   top: -6px;
+   left: 66px;
+   width: 258px;
+   height: 100px;
+   opacity: 0.5;
+}

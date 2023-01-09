@@ -1,0 +1,38 @@
+@font-face {
+   font-family: 'SF Pro Display';
+   src: url('../font/SF-Pro-Display-Semibold.eot');
+   src: local('☺'), url('../font/SF-Pro-Display-Semibold.woff') format('woff'), url('../font/SF-Pro-Display-Semibold.ttf') format('truetype'), url('../font/SF-Pro-Display-Semibold.svg') format('svg');
+   font-weight: 600;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SF Pro Display';
+   src: url('../font/SF-Pro-Display-Regular.eot');
+   src: local('☺'), url('../font/SF-Pro-Display-Regular.woff') format('woff'), url('../font/SF-Pro-Display-Regular.ttf') format('truetype'), url('../font/SF-Pro-Display-Regular.svg') format('svg');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SF Pro Display';
+   src: url('../font/SF-Pro-Display-Medium.eot');
+   src: local('☺'), url('../font/SF-Pro-Display-Medium.woff') format('woff'), url('../font/SF-Pro-Display-Medium.ttf') format('truetype'), url('../font/SF-Pro-Display-Medium.svg') format('svg');
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'SF Pro Display';
+   src: url('../font/SF-Pro-Display-Bold.eot');
+   src: local('☺'), url('../font/SF-Pro-Display-Bold.woff') format('woff'), url('../font/SF-Pro-Display-Bold.ttf') format('truetype'), url('../font/SF-Pro-Display-Bold.svg') format('svg');
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SF Pro Display';
+   src: url('../font/SF-Pro-Display-Ultralight.eot');
+   src: local('☺'), url('../font/SF-Pro-Display-Ultralight.woff') format('woff'), url('../font/SF-Pro-Display-Ultralight.ttf') format('truetype'), url('../font/SF-Pro-Display-Ultralight.svg') format('svg');
+   font-weight: 200;
+   font-style: normal;
+}
