@@ -495,12 +495,15 @@ padding-top: 5px;
 .text-heigh {
 margin-right: 8px;
 text-align: center;
+letter-spacing: 0.4px;
 }
 .text-low {
 text-align: center;
+letter-spacing: 0.4px;
 }
 .text-name-country {
 text-align: center;
+letter-spacing: 0.4px;
 }
 
 h2 {
@@ -510,7 +513,7 @@ font-weight: 400;
 font-size: 64px;
 line-height: 41px;
 color: #FFFFFF;
-letter-spacing: 0.374px;
+letter-spacing: 0.4px;
 margin-bottom: 28px;
 }
 .text-weather {
@@ -523,8 +526,8 @@ margin-bottom: 28px;
    text-align: right;
    letter-spacing: -0.078px;
    color: #FFFFFF;
-  margin-top: 15px;
-  padding-top: 15px;
+   margin-top: 15px;
+   padding-top: 15px;
    vertical-align: bottom;
    margin-right: 25px;
    margin-bottom: 20px;
