@@ -539,3 +539,6 @@ margin-bottom: 28px;
    top: 0;
    right: 0;
 }
+button {
+   cursor: pointer;
+}
