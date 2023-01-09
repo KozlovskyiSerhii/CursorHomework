@@ -83,7 +83,7 @@ box-sizing: border-box;
 }
 .img-battery {
    height: 12px;
-   width: 28px;
+   width: 27px;
 }
 
 .main-row {
@@ -277,17 +277,90 @@ left: 14px;
 .container-button {
    position: relative;
 }
-.Rectanglefooter{
+.container-symbol {
+   box-sizing: border-box;
    width: 390px;
    height: 89px;
    margin-top: 22px;
-   backdrop-filter: blur(25px);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 28px 0px 36px;
 }
-.Rectanglemiddle {
+.symbol-one {
+   width: 28px;
+   height: 28px;
+}
+.sympo-two {
+   width: 44px;
+   height: 44px;
+}
+
+.img-footer {
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+.img-footer-middle {
    position: absolute;
+   z-index: -1;
    top: -6px;
    left: 66px;
-   width: 258px;
-   height: 100px;
-   opacity: 0.5;
+}
+.circle-one {
+   position: absolute;
+   box-sizing: border-box;
+   width: 64px;
+   height: 64px;
+   border-radius: 50%;
+   background: linear-gradient(138.22deg, rgba(0, 0, 0, 0.4) 16.11%, rgba(255, 255, 255, 0.28) 85.86%);
+   filter: blur(0.5px);
+   left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+}
+.circle-two {
+   position: absolute;
+   box-sizing: border-box;
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   background: linear-gradient(138.22deg, #F5F5F9 16.11%, rgba(218, 223, 231, 0.7) 85.86%);
+   box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.5), 10px 10px 20px rgba(13, 20, 49, 0.5), inset 1px 1px 0.5px #FFFFFF;
+      left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+}
+.circle-three {
+   position: absolute;
+   box-sizing: border-box;
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   background: linear-gradient(138.22deg, #F5F5F9 16.11%, rgba(218, 223, 231, 0.7) 85.86%);
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+.buttom-circle {
+   position: absolute;
+   box-sizing: border-box;
+   border: none;
+   border-radius: 50%;
+   padding: 0px;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+.buttom-circle, .buttom-circle img {
+   box-sizing: border-box;
+   height: 28px;
+   width: 28px;
+   background: linear-gradient(138.22deg, #F5F5F9 16.11%, rgba(218, 223, 231, 0.7) 85.86%);
+}
+.circle-one:focus, .circle-one:hover {
+left: 50%;
+   top: 49%;
+   transform: translate(-50%, -50%);
 }
