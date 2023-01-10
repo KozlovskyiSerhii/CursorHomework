@@ -31,7 +31,7 @@ color: #23BCB3;
 .container-size {
 width: 390px;
 height: 844px;
-box-shadow: -40px 60px 150px rgba(11, 10, 10, 0.7);
+box-shadow: -40px 60px 150px rgba(11, 10, 10, 0.9);
 border-radius: 46px;
 box-sizing: border-box;
 }
