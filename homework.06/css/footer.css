@@ -134,6 +134,7 @@ color: #4B5D68;
 .sectiom-footer-first {
 height: 490px;
 width: 335px;
+margin-right: 140px;
 }
 .sectiom-footer-first-logo {
 display: flex;
@@ -188,7 +189,7 @@ height: 60px;
 }
 .sectiom-footer-second,
 .sectiom-footer-third {
-   margin-left: 100px;
+   margin-left: 50px;
    width: 166px;
    height: 250px;
 }
@@ -201,7 +202,7 @@ height: 60px;
    color: #212353;
    margin-bottom: 45px;
 }
-.sectiom-footer-second,
+.sectiom-footer-second a,
 .sectiom-footer-third a {
    font-family: 'Avenir', sans-serif;
    font-style: normal;
@@ -211,7 +212,7 @@ height: 60px;
    color: #212353;
 }
 .sectiom-footer-fourth {
-   margin-left: 100px;
+   margin-left: 50px;
    width: 178px;
    height: 110px;
 }
