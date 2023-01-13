@@ -149,7 +149,6 @@ display: flex;
 flex-wrap: wrap;
 box-sizing: border-box;
 margin-top: 70px;
-display: flex;
 width: 1140px;
 height: 765px;
 row-gap: 50px;
@@ -186,7 +185,6 @@ margin-left: 19px;
    font-weight: 400;
    font-size: 24px;
    line-height: 130%;
-   align-items: center;
    color: #212353;
 }
 .text-right-bl3-p {
@@ -203,7 +201,6 @@ margin-left: 19px;
    width: 130px;
    height: 26px;
    display: flex;
-   align-items: center;
    justify-content: space-between;
 }
 .text-inf {
@@ -214,7 +211,6 @@ margin-left: 19px;
    line-height: 160%;
    font-family: 'Avenir', sans-serif;
    font-style: normal;
-   align-items: center;
    letter-spacing: 0.005em;
    color: #212353;
    padding: 0;
@@ -284,7 +280,6 @@ margin-left: 19px;
    font-weight: 700;
    font-size: 40px;
    line-height: 130%;
-   align-items: center;
    color: #FFFFFF;
 }
 .slider-first {
