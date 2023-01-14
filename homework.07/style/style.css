@@ -11,6 +11,7 @@ html {
 }
 .container {
    width: 1440px;
+   margin: 0 auto;
    height: 4077px;
    background-color: #ffffff;
 }

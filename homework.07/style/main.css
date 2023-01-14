@@ -1,0 +1,51 @@
+.big-section {
+   width: 1440px;
+   height: 570px;
+   background-repeat: no-repeat;
+   background-image: url("../img/fonegirl.png");
+   display: grid;
+   grid-template-columns:repeat(2, 50%);
+   grid-template-rows: repeat(5, 1fr);
+   grid-row: 1/6;
+}
+.item-one {
+   grid-row: 1/6;
+   padding: 103px 0px 118px 164px ;
+}
+
+.item-one-p-1 {
+   width: 361px;
+   height: 134px;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 67px;
+   color: #FFFFFF;
+   margin-bottom: 13px;
+}
+.item-one-p-2 {
+   width: 446px;
+   height: 90px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+   color: #FFFFFF;
+   margin-bottom: 34px;
+}
+.btn-1 {
+border: none;
+   width: 255px;
+   height: 77px;
+   background: #1B2437;
+   border-radius: 15px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 30px;
+   color: #FFFFFF;
+   cursor: pointer;
+}
