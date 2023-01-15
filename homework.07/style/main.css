@@ -5,11 +5,12 @@
    background-image: url("../img/fonegirl.png");
    display: grid;
    grid-template-columns:repeat(2, 50%);
-   grid-template-rows: repeat(5, 1fr);
+   grid-template-rows: repeat(1, 1fr);
    grid-row: 1/6;
+   margin-bottom: 70px;
 }
 .item-one {
-   grid-row: 1/6;
+
    padding: 103px 0px 118px 164px ;
 }
 
@@ -48,4 +49,221 @@ border: none;
    line-height: 30px;
    color: #FFFFFF;
    cursor: pointer;
+}
+.long-section {
+   height: 2880px;
+   width: 1440px;
+   padding: 0px 165px;
+}
+.grid-women-colection {
+   width: 1110px;
+   height: 458px;
+   display: grid;
+   gap: 30px;
+   grid-template-columns: 445px 303px 302px ;
+   grid-template-rows: 1fr 1fr;
+} 
+.cell-one {
+   width: 445px;
+   height: 458px;
+   grid-column: 1/3;
+   grid-row: 1/3;
+   background-image: url("../img/whitewoman.png");
+   border-radius: 16px;
+   padding: 265px 0px 30px 32px;
+} 
+.cell-one h2 {
+   width: 144px;
+   height: 90px;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 45px;
+   color: #FFFFFF;
+
+}
+.cell-one p {
+   width: 144px;
+   height: 30px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   color: #FFFFFF;
+   margin-bottom: 8px;
+}
+.cell-one button {
+   width: 93px;
+   height: 30px;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 30px;
+   color: #FFFFFF;
+   background-color: rgba(255, 255, 255, 0.5)
+}
+.cell-two {
+   width: 303px;
+   height: 225px;
+   grid-column: 2/3;
+   grid-row: 1/2;
+   background: #EFEFF4;
+   border-radius: 16px;
+   padding-left: 22px;
+   padding-top: 53px;
+}
+.cell-two p {
+   width: 120px;
+   height: 30px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   color: #1B2437;
+}
+.cell-two h2 {
+   width: 160px;
+   height: 90px;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 45px;
+   color: #1B2437
+}
+.cell-three {
+   width: 302px;
+   height: 225px;
+   grid-column: 3/4;
+   grid-row: 1/2;
+   background-image: url("../img/dresses_category.png");
+   border-radius: 16px;
+   padding-top: 53px;
+   padding-left: 40px;
+} 
+.cell-three p {
+   width: 35px;
+   height: 30px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   color: #FFFFFF;
+}
+.cell-three h2 {
+   width: 119px;
+   height: 45px;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 45px;
+   color: #FFFFFF;
+}
+.cell-four {
+   width: 635px;
+   height: 204px;
+   grid-column: 2/4;
+   grid-row: 2/3;
+   background-image: url("../img/denim_jackets_category.png");
+   border-radius: 16px;
+   padding-top: 65px;
+   padding-left: 40px;
+}
+.cell-four p {
+width: 281px;
+   height: 30px;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   color: #1B2437;
+}
+.cell-four h2 {
+width: 281px;
+   height: 45px;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 45px;
+   color: #1B2437;
+}
+.grid-women-clothes {
+   margin-top: 30px;
+   display: grid;
+   width: 1110px;
+   height: 314px;
+   gap: 30px;
+   grid-template-columns: repeat(4, 255px);
+   grid-template-rows: 223px 60px;
+   background: #FFFFFF;
+   border-radius: 16px;
+}
+.grid-women-clothes-slider {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.image-closes {
+   width: 255px;
+   height: 207px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.image-closes1 {
+   width: 156px;
+   height: 127px
+}
+.image-closes2 {
+   width: 100px;
+   height: 138px;
+}
+.image-closes3 {
+   width: 156px;
+   height: 92px;
+}
+.image-closes4 {
+   width: 94px;
+   height: 132px;
+}
+
+.grid-women-clothes-slider p {
+font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 30px;
+   color: #000000;
+}
+.circle-area{
+grid-column: 1/5;
+grid-row: 2/2;
+width: 84px;
+height: 12px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+
+} 
+.circle-area1 {
+border-radius: 50%;
+background: #EFEFF4;
+width: 12px;
+height: 12px;
+}
+.circle-area1:hover {
+   background: #EDA3B5;
 }
