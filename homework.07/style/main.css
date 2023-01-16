@@ -51,7 +51,7 @@ border: none;
    cursor: pointer;
 }
 .long-section {
-   height: 2880px;
+   height: auto;
    width: 1440px;
    padding: 0px 165px;
 }
@@ -274,24 +274,6 @@ height: 12px;
    grid-template-rows: repeat(2, 487px);
    gap: 30px;
 } 
-.cell-item-1 {
-
-}
-.cell-item-2 {
-
-}
-.cell-item-3 {
-
-}
-.cell-item-4 {
-
-}
-.cell-item-5 {
-
-}
-.cell-item-6 {
-
-}
 .clothes-block {
    position: relative;
    width: 350px;
@@ -383,4 +365,81 @@ background: #EDA3B5;
 .like img {
    width: 18px;
    height: 24px;
+}
+
+.contacts {
+   margin: 70px 0px 35px 0px;
+   width: 194px;
+   height: 67px;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 67px;
+   color: #1B2437;
+}
+
+.map-contacts {
+   width: 1110px;
+   height: 658px;
+   background: #FFFFFF;
+   border-radius: 16px;
+   padding: 12px 12px 25px 12px;
+   margin-bottom: 70px;
+}
+.map {
+width: 100%;
+height: 511px;
+}
+
+.contacts-row {
+display: flex;
+justify-content: space-between;
+height: 110px;
+padding-top: 27px;
+} 
+.contacts-row-phone {
+margin-left: 110px;
+} 
+.contacts-row-phone img {
+   width: 33px;
+   height: 33px;
+   margin: 0px 0px 20px 6px;
+}
+.contacts-row-phone p,
+.contacts-row-location p,
+.contacts-row-mail p {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+      color: #000000;
+}
+.contacts-row-location img {
+   margin-bottom: 20px;
+   width: 40px;
+   height: 40px;
+   margin-left: 15px;
+} 
+.contacts-row-mail {
+   margin-right: 48px;
+} 
+.contacts-row-mail img{
+   width: 33px;
+   height: 27px;
+   margin-bottom: 23px;
+   margin-left: 66px;
+}
+.phone1 {
+   width: 165px;
+   height: 30px;
+}
+.phone1 a {
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 30px;
+   color: #000000;
 }
