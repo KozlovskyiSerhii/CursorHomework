@@ -380,6 +380,7 @@ background: #EDA3B5;
 }
 
 .map-contacts {
+   position: relative;
    width: 1110px;
    height: 658px;
    background: #FFFFFF;
@@ -393,9 +394,9 @@ height: 511px;
 }
 
 .contacts-row {
-display: flex;
-justify-content: space-between;
-height: 110px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+height: 120px;
 padding-top: 27px;
 } 
 .contacts-row-phone {
@@ -404,7 +405,7 @@ margin-left: 110px;
 .contacts-row-phone img {
    width: 33px;
    height: 33px;
-   margin: 0px 0px 20px 6px;
+   margin: 0px 0px 25px 6px;
 }
 .contacts-row-phone p,
 .contacts-row-location p,
@@ -416,20 +417,25 @@ margin-left: 110px;
       line-height: 30px;
       color: #000000;
 }
+.contacts-row-location {
+   padding: 0px 150px;
+}
 .contacts-row-location img {
-   margin-bottom: 20px;
+   margin-bottom: 15px;
    width: 40px;
    height: 40px;
    margin-left: 15px;
 } 
 .contacts-row-mail {
-   margin-right: 48px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-left: 140px;
 } 
 .contacts-row-mail img{
    width: 33px;
    height: 27px;
-   margin-bottom: 23px;
-   margin-left: 66px;
+   margin: 3px 23px 0px 66px;
 }
 .phone1 {
    width: 165px;
@@ -442,4 +448,11 @@ margin-left: 110px;
    font-size: 18px;
    line-height: 30px;
    color: #000000;
+}
+.current-location {
+   position: absolute;
+   width: 35px;
+   height: 62px;
+   right: 631px;
+   bottom: 330px;
 }
