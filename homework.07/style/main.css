@@ -106,7 +106,7 @@ border: none;
    font-size: 14px;
    line-height: 30px;
    color: #FFFFFF;
-   background-color: rgba(255, 255, 255, 0.4)
+   background-color: rgba(255, 255, 255, 0.3)
 }
 .cell-two {
    width: 303px;
@@ -363,8 +363,8 @@ background: #EDA3B5;
    align-items: center;
 } 
 .like img {
-   width: 18px;
-   height: 24px;
+   width: 17px;
+   height: 27px;
 }
 
 .contacts {
