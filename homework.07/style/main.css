@@ -361,6 +361,7 @@ background: #EDA3B5;
    border-radius: 50%;
    justify-content: center;
    align-items: center;
+   cursor: pointer;
 } 
 .like img {
    width: 17px;
