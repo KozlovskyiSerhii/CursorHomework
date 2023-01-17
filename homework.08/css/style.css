@@ -3,19 +3,19 @@
    width: 100%;
    height: auto;
    display: grid;
-   grid-template-columns: repeat(4, 100px);
-   grid-template-rows: repeat(6, 100px);
-   gap: 20px;
+   grid-template-columns: repeat(4, 50px);
+   grid-template-rows: repeat(6, 50px);
+   gap: 10px;
 }
 .container div {
-width: 100px;
-height: 100px;
+width: 50x;
+height: 50px;
 background-color: grey;
 }
 div:nth-child(n+21) {
    background-color: rgb(22, 32, 167);
 }
- div:nth-child(4n+3) {
+   div:nth-child(4n+3) {
    background-color: red;
 }
 
