@@ -43,17 +43,21 @@ button {
    padding-left: 128px;
 }
    button::before {
+   content: "";
    position: absolute;
-   height: 3px;
-   content: url("../img/Rectangle.png");
+   background-color: #C4C4C4;
+   height: 2px;
+   width: 200px;
    top: 20px;
    left: -230px;
    }
 
 button::after {
+   content: " ";
    position: absolute;
-   height: 3px;
-   content: url("../img/Rectangle.png");
+   background-color: #C4C4C4;
+   height: 2px;
+   width: 200px;
    top: 20px;
    left: 540px;
 }
