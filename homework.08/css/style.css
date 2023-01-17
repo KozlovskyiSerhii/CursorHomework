@@ -12,18 +12,13 @@ width: 100px;
 height: 100px;
 background-color: grey;
 }
-div:nth-child(-2n+20) {
-   background-color: red;
-}
-div:nth-child(1), div:nth-child(5), div:nth-child(9), div:nth-child(13), div:nth-child(17) {
-   background-color: red;
-}
-div:nth-child(n+21):nth-child(-n+23) {
+div:nth-child(n+21) {
    background-color: rgb(22, 32, 167);
 }
-div:last-child {
-   background-color: rgb(126, 5, 5);
+ div:nth-child(4n+3) {
+   background-color: red;
 }
+
 button {
    position: relative;
    box-sizing: border-box;
@@ -50,7 +45,7 @@ button {
    height: 3px;
    content: url("../img/Rectangle.png");
    top: 20px;
-   left: -220px;
+   left: -230px;
    }
 
 button::after {
@@ -66,7 +61,7 @@ button::after {
          height: 3px;
          content: url("../img/Rectangle.png");
          top: 28px;
-         left: -220px;
+         left: -230px;
       }
    
       p::after {
