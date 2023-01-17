@@ -48,7 +48,7 @@ button {
    background-color: #C4C4C4;
    height: 2px;
    width: 200px;
-   top: 20px;
+   top: 40px;
    left: -230px;
    }
 
@@ -58,7 +58,7 @@ button::after {
    background-color: #C4C4C4;
    height: 2px;
    width: 200px;
-   top: 20px;
+   top: 40px;
    left: 540px;
 }
 
