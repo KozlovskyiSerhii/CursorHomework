@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+   font-family: 'Product Sans';
+   src: url('ProductSans-Regular.eot');
+   src: local('Product Sans'), local('ProductSans-Regular'),
+      url('ProductSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('ProductSans-Regular.woff') format('woff'),
+      url('ProductSans-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+a {
+text-decoration: none;
+}
+a,
+button {
+   cursor: pointer;
+}
+button {
+   border: none;
+}
+body {
+   width: 100%;
+   height: auto;
+}
+html {
+   scroll-behavior: smooth;
+   background-color: #E5E5E5;
+}
