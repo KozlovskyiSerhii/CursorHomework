@@ -545,17 +545,15 @@ fill: #FFCE00;
 }
 @media screen and (max-width: 720px) {
    .section__three {
-      margin: 0 auto;
       box-sizing: border-box;
-      max-width: 360px;
+      width: 100%;
       background: #FAFAFA;
       display: flex;
       flex-direction: column;
       align-items: center;
       row-gap: 55px;
-      padding: 2%;
+      padding: 50px 25px 70px;
       justify-content: center;
-      padding-bottom: 4%;
    }
       .section__three h2, .section__three__row__fragment p {
          color: #000000;
@@ -577,8 +575,11 @@ fill: #FFCE00;
          display: flex;
          align-items: center;
          justify-content: center;
-         width: 90%;
+         width: 100%;
       }
+   .section__three__row__fragment p {
+      text-align: center;
+   }
       .icon-blue {
          fill: #00ADEE;
       }
