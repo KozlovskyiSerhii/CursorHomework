@@ -370,6 +370,9 @@ fill: #FFCE00;
       justify-items: center;
       margin-left: 2%;
    }
+   .section__one__interface p {
+      text-align: center;
+   }
    .ronaldo {
       width: 380px;
       height: 360px;
