@@ -569,7 +569,7 @@ display: none;
    flex-direction: column;
    display: flex;
    align-items: center;
-   height: 435px;
+   height: auto;
    width: 100%;
    background-color: #FFFFFF;
    box-sizing: border-box;
