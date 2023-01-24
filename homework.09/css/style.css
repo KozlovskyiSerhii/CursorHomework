@@ -393,21 +393,23 @@ fill: #FFCE00;
 
 
 .section__two {
-   background-image: url("../img/circlephone.png");
+   background-image: url("../img/salah-fon.png");
    background-repeat: no-repeat;
    background-size: 100%;
-   height: auto;
+   background-position: right 0 top 50%;
+   height: 700px;
    width: 100%;
    box-sizing: border-box;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding: 70px 250px 10px 160px;
+   padding: 5% 17% 1% 11%;
+   background-color: #ffffff;
 }
 
 .section__two__interface {
-   margin-top: 130px;
-   width: 480px;
+   margin-top: 9%;
+   width: 47%;
 }
 
 .section__two__interface__blue {
@@ -447,7 +449,46 @@ fill: #FFCE00;
    row-gap: 20px;
 }
 
-.section__two__foto {
+@media screen and (max-width: 720px) {
+   .section__two {
+      background: #ffffff;
+      flex-direction: column;
+      padding: 0;
+      height: auto;
+      min-width: 360px;
+   }
+   .section__two__interface {
+      width: 90%;
+      align-items: center;
+      padding: 0 5%;
+   }
+   .section__two__interface__blue {
+      text-align: center;
+   }
+   .section__two__interface h2 {
+      text-align: center;
+   }
+   .section__two__interface__row {
+      text-align: center;
+   }
+   .section__two__foto {
+      background: url("../img/salah-fone-360px.png");
+      background-size: 55%;
+      width: 100%;
+      height: 565px;
+      background-position: top 71% left 50%;
+      background-repeat: no-repeat;
+   }
+}
+@media screen and (max-width: 370px) {
+   .section__two__foto {
+   background-size: 100%;
+   width: 100%;
+   height: 565px;
+   background-repeat: no-repeat;
+}
+}
+/* .section__two__foto {
    position: relative;
    display: flex;
    width: 42%;
@@ -482,7 +523,7 @@ fill: #FFCE00;
    position: absolute;
    bottom: 115px;
    left: 30px;
-}
+} */
 .section__three {
    background: url("../img/bluefone.png") 0 0 repeat local;
    background-size: 100%;
