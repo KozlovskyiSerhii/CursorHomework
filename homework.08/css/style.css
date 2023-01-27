@@ -20,7 +20,7 @@ div:nth-child(n+21) {
 }
    div:nth-child(4n+3) {
    background-color: red;
-}
+} */
 
 button {
    margin: 100px auto;
