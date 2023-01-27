@@ -15,12 +15,12 @@ width: 50x;
 height: 50px;
 background-color: grey;
 }
-/* div:nth-child(n+21) {
+div:nth-child(n+21) {
    background-color: rgb(22, 32, 167);
 }
    div:nth-child(4n+3) {
    background-color: red;
-} */
+}
 
 button {
    margin: 100px auto;
