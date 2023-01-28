@@ -52,7 +52,7 @@ height: 150px;
    padding: 0px 50px 0 50px;
 }
    .red-sword-block{
-      animation: red-sword-block-rotate 4s infinite;
+      animation: red-sword 4s infinite;
       position: absolute;
       display: flex;
       top: 80px;
@@ -68,8 +68,8 @@ height: 150px;
 
    } 
    .blue-sword-block {
-      animation: blue-sword-block-rotate 4s infinite;
-      right: -500px;
+      animation: blue-sword 4s infinite;
+      right: -30%;
       position: absolute;
       display: flex;
       transform: rotate(180deg);
@@ -84,7 +84,7 @@ height: 150px;
       width: 600px;
       background-color: rgb(8, 30, 155);
    }
-   @keyframes blue-sword-block-rotate {
+   @keyframes blue-sword {
    0% {
       rotate: -25deg;
       transform-origin: left;
@@ -102,7 +102,7 @@ height: 150px;
    }
 }
 
-@keyframes red-sword-block-rotate {
+@keyframes red-sword {
    0% {
       rotate: -25deg;
       transform-origin: left;
@@ -118,17 +118,15 @@ height: 150px;
       transform-origin: left;
    }
 }
-
-
 
 
 
 
 .newton {
-   
    display: flex;
    flex-direction: row;
    align-items: center;
+   justify-content: center;
    width: 100%;
    height: 40vw;
    background-color: chartreuse;
@@ -138,4 +136,135 @@ height: 150px;
    width: 100px;
    border-radius: 50%;
    background-color: green;
+}
+.left-ball {
+      animation: left 4s 0s infinite;
+}
+
+@keyframes left {
+   0% {
+      transform: translate(0x, 0px);
+      transform-origin: center;
+
+   }
+
+   20% {
+      transform: translate(-80px, -80px);
+      transform-origin: right center;
+   }
+
+   40% {
+      transform: translate(0px, 0px);
+      transform-origin: center;
+   }
+}
+
+.right-ball {
+   animation: right 4s 2s infinite;
+}
+
+@keyframes right {
+   0% {
+      transform: translate(0px, 0px);
+      transform-origin: center;
+
+   }
+
+   20% {
+      transform: translate(80px, -80px);
+      transform-origin:  center;
+   }
+
+   40% {
+      transform: translate(0px, 0px);
+      transform-origin: center;
+   }
+}
+
+
+.two {
+   animation: two 4s 0.8s infinite;
+}
+@keyframes two {
+   45% {
+      background-color: rgb(168, 174, 4);
+
+   }
+
+   80% {
+      background-color: rgb(168, 174, 4);
+   }
+
+   90% {
+      background-color: green;
+   }
+}
+.three {
+   animation: three 4s 1s infinite;
+}
+@keyframes three {
+   25% {
+      background-color: rgb(255, 34, 0);
+
+   }
+
+   65% {
+   background-color: rgb(255, 34, 0);
+   }
+
+   75% {
+      background-color: green;
+   }
+}
+.four {
+   animation: four 4s 1.3s infinite;
+
+}
+@keyframes four {
+   25% {
+      background-color: rgb(174, 27, 210);
+
+   }
+
+   55% {
+      background-color: rgb(174, 27, 210);
+   }
+
+   75% {
+      background-color: green;
+   }
+}
+.five {
+animation: five 4s 1.7s infinite;
+}
+@keyframes five {
+   25% {
+      background-color: rgb(20, 147, 113);
+
+   }
+
+   45% {
+      background-color: rgb(20, 147, 113);
+   }
+
+   50% {
+      background-color: green;
+   }
+}
+.six {
+animation: six 4s 2s infinite;
+}
+@keyframes six {
+   25% {
+      background-color: rgb(3, 27, 7);
+
+   }
+
+   30% {
+      background-color: rgb(3, 27, 7);
+   }
+
+  50% {
+      background-color: green;
+   }
 }
