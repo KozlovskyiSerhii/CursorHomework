@@ -1,0 +1,141 @@
+body {
+   min-width: 1440px;
+   z-index: 1;
+}
+.jedi {
+
+width: 100%;
+display: flex;
+flex-direction: column;
+background-image: url("../img/starsky.jpg");
+height: 50vw;
+} 
+p {
+   color: aliceblue;
+}
+.sword-block {
+display: flex;
+flex-direction: row;
+background-color: black;
+height: 150px;
+}
+.lightsaber img{
+   width: 200px;
+   margin-top: 36px;
+}
+.start-sword {
+   margin-top: 50px;
+   position: relative;
+   height: 14px;
+   width: 90px;
+   background-color: rgb(212, 192, 38);
+   border-radius: 0px 25px 25px 0px;
+   z-index: -10;
+}
+
+.lightsaber:hover + .start-sword  {
+   transform: scaleX(5);
+   box-shadow: 2px 2px 2px 2px rgb(232 212 65 / 20);
+   transform-origin: center left;
+   transition: transform 2s;
+   z-index: 1;
+   
+}
+
+.two-sword {
+   position: relative;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   height: 600px;
+   align-items: flex-end;
+   padding: 0px 50px 0 50px;
+}
+   .red-sword-block{
+      animation: red-sword-block-rotate 4s infinite;
+      position: absolute;
+      display: flex;
+      top: 80px;
+      left: 5%;
+   } 
+   .red-sword {
+      margin-top: 17px;
+      height: 13px;
+      width: 600px;
+      background-color: brown;
+   }
+   .lightsaber-red img{
+
+   } 
+   .blue-sword-block {
+      animation: blue-sword-block-rotate 4s infinite;
+      right: -500px;
+      position: absolute;
+      display: flex;
+      transform: rotate(180deg);
+      bottom: 400px;
+   } 
+   .lightsaber-red img{
+      width: 200px;
+   }
+   .blue-sword {
+      margin-top: 17px;
+      height: 13px;
+      width: 600px;
+      background-color: rgb(8, 30, 155);
+   }
+   @keyframes blue-sword-block-rotate {
+   0% {
+      rotate: -25deg;
+      transform-origin: left;
+
+   }
+
+   50% {
+      rotate: 15deg;
+      transform-origin: left;
+   }
+
+   100% {
+      rotate: -25deg;
+      transform-origin: left;
+   }
+}
+
+@keyframes red-sword-block-rotate {
+   0% {
+      rotate: -25deg;
+      transform-origin: left;
+   }
+
+   50% {
+      rotate: 15deg;
+      transform-origin: left;
+   }
+
+   100% {
+      rotate: -25deg;
+      transform-origin: left;
+   }
+}
+
+
+
+
+
+
+.newton {
+   
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 40vw;
+   background-color: chartreuse;
+}
+.ball {
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: green;
+}
