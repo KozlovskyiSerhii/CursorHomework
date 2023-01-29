@@ -181,7 +181,7 @@ height: 150px;
    animation: two 4s 0.8s infinite;
 }
 @keyframes two {
-   45% {
+   70% {
       background-color: rgb(168, 174, 4);
 
    }
@@ -198,7 +198,7 @@ height: 150px;
    animation: three 4s 1s infinite;
 }
 @keyframes three {
-   25% {
+   60% {
       background-color: rgb(255, 34, 0);
 
    }
