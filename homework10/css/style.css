@@ -52,8 +52,8 @@ height: 150px;
       animation: red-sword 4s infinite;
       position: absolute;
       display: flex;
-      top: 20%;
-      left: 30%;
+      top: 40%;
+      left: 20%;
    } 
    .red-sword {
       margin-top: 17px;
@@ -71,7 +71,7 @@ height: 150px;
       display: flex;
       transform: rotate(180deg);
       left: 80%;
-      top: 30%;
+      top: 40%;
    } 
    .lightsaber-red img{
       width: 200px;
