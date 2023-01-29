@@ -3,7 +3,6 @@ body {
    z-index: 1;
 }
 .jedi {
-
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -16,7 +15,6 @@ p {
 .sword-block {
 display: flex;
 flex-direction: row;
-background-color: black;
 height: 150px;
 }
 .lightsaber img{
@@ -35,7 +33,7 @@ height: 150px;
 
 .lightsaber:hover + .start-sword  {
    transform: scaleX(5);
-   box-shadow: 2px 2px 2px 2px rgb(232 212 65 / 20);
+   box-shadow: 2px 2px 3px 3px rgb(232 212 65 / 20);
    transform-origin: center left;
    transition: transform 2s;
    z-index: 1;
@@ -45,35 +43,33 @@ height: 150px;
 .two-sword {
    position: relative;
    box-sizing: border-box;
-   display: flex;
-   justify-content: space-between;
    height: 600px;
-   align-items: flex-end;
    padding: 0px 50px 0 50px;
 }
    .red-sword-block{
       animation: red-sword 4s infinite;
       position: absolute;
       display: flex;
-      top: 80px;
-      left: 5%;
+      top: 20%;
+      left: 20%;
    } 
    .red-sword {
       margin-top: 17px;
       height: 13px;
       width: 600px;
-      background-color: brown;
+      background-color: rgb(231, 14, 14);
+      box-shadow: 0px 0px 4px 4px rgba(237, 69, 8, 0.615);
    }
    .lightsaber-red img{
-
+      width: 200px;
    } 
    .blue-sword-block {
       animation: blue-sword 4s infinite;
-      right: -30%;
       position: absolute;
       display: flex;
       transform: rotate(180deg);
-      bottom: 400px;
+      left: 80%;
+      top: 20%;
    } 
    .lightsaber-red img{
       width: 200px;
@@ -83,38 +79,37 @@ height: 150px;
       height: 13px;
       width: 600px;
       background-color: rgb(8, 30, 155);
+      box-shadow: 0px 0px 4px 4px rgba(13, 44, 246, 0.615);
    }
    @keyframes blue-sword {
    0% {
-      rotate: -25deg;
+      rotate: -30deg;
       transform-origin: left;
-
    }
-
    50% {
-      rotate: 15deg;
+      rotate: 30deg;
       transform-origin: left;
    }
 
    100% {
-      rotate: -25deg;
+      rotate: -30deg;
       transform-origin: left;
    }
 }
 
 @keyframes red-sword {
    0% {
-      rotate: -25deg;
+      rotate: -30deg;
       transform-origin: left;
    }
 
    50% {
-      rotate: 15deg;
+      rotate: 30deg;
       transform-origin: left;
    }
 
    100% {
-      rotate: -25deg;
+      rotate: -30deg;
       transform-origin: left;
    }
 }
@@ -129,7 +124,7 @@ height: 150px;
    justify-content: center;
    width: 100%;
    height: 40vw;
-   background-color: chartreuse;
+   background-color: rgba(221, 62, 40, 0.677);
 }
 .ball {
    height: 100px;
@@ -255,7 +250,7 @@ animation: five 4s 1.7s infinite;
 animation: six 4s 2s infinite;
 }
 @keyframes six {
-   25% {
+   15% {
       background-color: rgb(3, 27, 7);
 
    }
@@ -264,7 +259,7 @@ animation: six 4s 2s infinite;
       background-color: rgb(3, 27, 7);
    }
 
-  50% {
+   50% {
       background-color: green;
    }
 }
