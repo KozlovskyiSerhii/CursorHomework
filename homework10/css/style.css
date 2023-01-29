@@ -53,7 +53,7 @@ height: 150px;
       position: absolute;
       display: flex;
       top: 20%;
-      left: 20%;
+      left: 30%;
    } 
    .red-sword {
       margin-top: 17px;
@@ -71,7 +71,7 @@ height: 150px;
       display: flex;
       transform: rotate(180deg);
       left: 80%;
-      top: 20%;
+      top: 30%;
    } 
    .lightsaber-red img{
       width: 200px;
