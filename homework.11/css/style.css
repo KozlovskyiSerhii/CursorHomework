@@ -1,0 +1,97 @@
+body {
+   width: 100%;
+   height: auto;
+   background-color: #FFFFFF;
+}
+.navigation {
+   height: 50px;
+}
+   @media (max-width: 500px) {
+      .input-size {
+            width: 90% !important;
+            height: 30px;
+            background-size: 10px !important;
+            background-position: left 5% center !important; }
+   }
+.input-size {
+   width: 220px;
+   height: 30px;
+   color: #8F8F8F;
+   background-image: url("../img/search.svg");
+   background-size: 12px;
+   background-repeat: no-repeat;
+   background-position: left 30% center;
+}
+input[type="search"]:focus {
+   outline: none;
+   background: none;
+}
+.userphoto {
+   width: 22px;
+   height: 22px;
+}
+.me-md-2 {
+   margin: 0px 0px 0px 0px !important;
+}
+
+
+.line {
+   height: 1px;
+   background: #DBDBDB;
+}
+.user-foto-big {
+   border-radius: 50%;
+   width: 154px;
+   height: 153px;
+}
+.box-1 {
+height: 190px;
+} 
+.box-2 {
+height: 190px;
+}
+.btn-group-1 {
+   width: 97px;
+   height: 35px;
+   background-color: #4094EF;
+   border-radius: 3px;
+}
+.btn-group-1:hover {
+   background-color: rgb(218, 205, 24);
+}
+.btn-group-1:focus {
+   background-color: green;
+}
+.btn-group-2 {
+   border-radius: 3px;
+   width: 33px;
+   height: 35px;
+}
+.circle-box {
+   height: 35px;
+}
+.circle-3 {
+   width: 4px;
+   height: 4px;
+   background-color: #262626;
+}
+
+
+
+.galery-img {
+   border-radius: 50%;
+   width: 79px;
+   height: 79px;
+}
+
+
+
+
+
+.galery-img img {
+   width: 79px;
+      height: 79px;
+}
+   .main {
+      min-height: 450px;
+   }
