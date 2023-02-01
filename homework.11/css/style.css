@@ -2,7 +2,7 @@
 body {
    font-family: 'Roboto', sans-serif;
    width: 100%;
-   height: 100%;
+   height: auto;
    background-color: #FFFFFF;
 }
 .container-xxl-height {
@@ -89,4 +89,13 @@ height: auto;
 }
    .main {
       height: auto;
+   }
+   .img-size-main {
+      width: 11px;
+      height: 11px;
+   }
+   .img-size-gallery {
+      width: 100%;
+      height: 100%;
+      background-color: chartreuse;
    }
