@@ -99,3 +99,23 @@ height: auto;
       height: 100%;
       background-color: chartreuse;
    }
+   .add-line-on {
+      position: relative !important;
+      cursor: pointer;
+   }
+      .post {
+         color: #8F8F8F;
+      }
+      .add-line-on:hover:after{
+         content: "";
+         position: absolute; 
+         top: -10px;
+         left: 15px;
+         width: 64px;
+         height: 2px;
+         background-color: #262626;
+         color: black;
+      }
+      .post:hover {
+         color: black;
+      }
