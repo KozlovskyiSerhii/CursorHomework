@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+a {
+  text-decoration: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  height: auto;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 11.4% 0% 11.4%;
+  height: 60px;
+}
+
+.nav-left {
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 17%;
+  margin-left: 1%;
+}
+
+.nav-left-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #505F98;
+}
+
+.text-landie {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447E;
+}
+
+.btn1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  width: 160px;
+  height: 26px;
+  background: #111B47;
+  border-radius: 2px;
+}

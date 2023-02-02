@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@mixin text($fw, $fz, $lh, $text-col) {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: $fw;
+font-size: $fz;
+line-height: $lh;
+color: $text-col;
+}
+
+@mixin img($wid, $heigh){
+   width: $wid;
+   height: $heigh;
+}
+   @mixin button($width, $tall, $color, $radius){
+width: $width;
+height: $tall;
+background: $color;
+border-radius: $radius;
+}
+
+a {
+text-decoration: none;
+}
+
+a,
+button {
+   cursor: pointer;
+}
+
 body {
    width: 100%;
+   height: auto;
+}
+
+html {
+   height: auto;
+   scroll-behavior: smooth;
+   background-color: #ffffff;
+}
+
+.container {
+   max-width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.header{
+   column-gap: 10px;
+   box-sizing: border-box;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0% 11.4% 0% 11.4%;
+   height: 60px;
+}
+.nav-left {
+   column-gap: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 17%;
+   margin-left: 1%;
+}
+.nav-left-link {
+   @include text(400, 14px, 24px, #505F98);
+}
+.text-landie {
+   @include text(900, 26px, 38px, #37447E);
+}
+.btn1 {
+   @include text(500, 12px, 18px, #FFFFFF);
+   @include button(160px, 26px, #111B47, 2px)
 }
