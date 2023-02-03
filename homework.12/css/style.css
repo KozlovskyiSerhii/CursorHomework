@@ -407,6 +407,7 @@ html {
 }
 
 .bigfooter {
+  position: relative;
   background-color: #E7ECFF;
   display: flex;
   flex-direction: column;
@@ -493,4 +494,14 @@ html {
   -moz-column-gap: 5%;
        column-gap: 5%;
   justify-content: space-between;
+}
+
+.footer-img {
+  height: 800px;
+  width: 100%;
+  max-width: 2000px;
+  position: absolute;
+  bottom: 71%;
+  right: 0%;
+  z-index: -1;
 }
