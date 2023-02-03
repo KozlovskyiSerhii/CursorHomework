@@ -163,6 +163,35 @@ html {
   border: 2px solid #091133;
 }
 
+@media screen and (max-width: 720px) {
+  .header {
+    padding: 0% 2% 0% 2%;
+  }
+  .nav-left {
+    width: 45%;
+  }
+  .header--fone {
+    display: none;
+  }
+  .left-section {
+    width: 94%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 8%;
+  }
+  .two__button {
+    width: 94%;
+  }
+  .left-section-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    color: #091133;
+    margin-bottom: 20px;
+  }
+}
 .main-row {
   box-sizing: border-box;
   display: flex;
@@ -497,11 +526,11 @@ html {
 }
 
 .footer-img {
-  height: 800px;
+  height: 950px;
   width: 100%;
   max-width: 2000px;
   position: absolute;
-  bottom: 71%;
+  bottom: 51%;
   right: 0%;
   z-index: -1;
 }
