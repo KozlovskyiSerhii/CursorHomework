@@ -26,6 +26,7 @@ html {
 .container {
   max-width: 100%;
   margin: 0 auto;
+  height: auto;
   overflow: hidden;
 }
 
@@ -103,7 +104,7 @@ html {
   padding-top: 13%;
   padding-left: 11.2%;
   z-index: 1;
-  margin-bottom: 42%;
+  margin-bottom: 420px;
 }
 
 .left-section-title {
@@ -266,12 +267,24 @@ html {
   width: 50%;
 }
 
+.lotos-img img {
+  max-width: 100%;
+}
+
 .lotos-swan {
   width: 50%;
 }
 
+.lotos-swan img {
+  max-width: 100%;
+}
+
 .lotos-mail {
   width: 50%;
+}
+
+.lotos-mail img {
+  max-width: 100%;
 }
 
 .main-row-info-text-p2-last {
@@ -292,8 +305,192 @@ html {
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
-  width: 35%;
+  width: 150px;
   height: 32px;
   background: #111B47;
   border-radius: 2px;
+}
+
+.mt-top {
+  margin-top: 50px;
+}
+
+.text-block {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 42%;
+  height: auto;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 18%;
+  padding-bottom: 14%;
+}
+
+.text-block-h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  margin-bottom: 16px;
+}
+
+.text-block-title-one {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6F7CB2;
+  margin-bottom: 36px;
+}
+
+.text-block-price-dol {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  color: #222F65;
+}
+
+.text-block-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  row-gap: 5px;
+  margin-bottom: 60px;
+}
+
+.text-block-title-two {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #37447E;
+}
+
+.text-block-button {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.text-block-button-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5D6970;
+}
+
+.btn-4 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 190px;
+  height: 32px;
+  background: #111B47;
+  border-radius: 2px;
+}
+
+.bigfooter {
+  background-color: #E7ECFF;
+  display: flex;
+  flex-direction: column;
+  padding: 4.3% 11.5% 2.2% 11.5%;
+}
+
+.bigfooter-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.bigfooter-top-company {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939EA4;
+}
+
+.bigfooter-top-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447E;
+}
+
+.btn-5 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  width: 110px;
+  height: 26px;
+  background: #111B47;
+  border-radius: 2px;
+}
+
+.little-line {
+  margin: 0 auto;
+  height: 2px;
+  width: 100%;
+  background-color: #CDD1D4;
+  margin-bottom: 20px;
+}
+
+.bigfooter-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bigfooter-bottom-nav {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  justify-content: space-between;
+}
+
+.bigfooter-bottom-nav-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #929ECC;
+}
+
+.all-social-media {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  justify-content: space-between;
 }
