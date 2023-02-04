@@ -173,16 +173,16 @@ html {
 }
 .main-row-info-text-h2 {
    @include text(500, 36px, 48px, #091133);
-   width: 80%;
+   width: 90%;
 }
 .main-row-info-text-p1 {
    @include text(400, 16px, 26px, #6F7CB2);
    margin-bottom: 10px;
-   width: 80%;
+   width: 90%;
 }
 .main-row-info-text-p2 {
    @include text(400, 16px, 26px, #6F7CB2);
-   width: 80%;
+   width: 90%;
    margin-bottom: 13%;
 }
 .main-row-info-svg {
@@ -190,7 +190,7 @@ html {
    flex-direction: row;
    align-items: center;
    justify-content: space-between;
-   width: 80%;
+   width: 100%;
 
 }
 .main-row-info-title {
@@ -207,6 +207,9 @@ html {
 }
 .main-row--img {
    width: 50%;
+}
+.main-row--img img {
+   width: 100%;
 }
 .main-row-intro {
    margin-bottom: 10%;
