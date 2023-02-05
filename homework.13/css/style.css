@@ -1,0 +1,45 @@
+.download-icon {
+  stroke: #00D200;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: #878787;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1310px;
+  height: 800px;
+  padding: 44px 128px 80px 60px;
+  box-sizing: border-box;
+}
+
+button {
+  display: flex;
+}
+
+.big-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.big-button__download {
+  width: 700px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px 20px;
+}
+
+.big-button__tab {
+  display: grid;
+  width: 320px;
+  height: 200px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}

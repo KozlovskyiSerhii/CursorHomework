@@ -1,0 +1,63 @@
+
+$blue: #18A0FB;
+$grey: #878787;
+$light-grey: rgba(224, 224, 224, 0.3);
+$white:#FFFFFF;
+$red: #FF3E1D;
+$black: #2C2C2C;
+$green:#00D200;
+
+@mixin button($fd, $width, $tall, $color, $radius) {
+   display: flex;
+   flex-direction: $fd;
+   width: $width;
+   height: $tall;
+   background: $color;
+   border-radius: $radius;
+}
+@mixin text($fw, $fz, $lh, $text-col) {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: $fw;
+   font-size: $fz;
+   line-height: $lh;
+   color: $text-col;
+}
+@import "_bigbutton";
+@import "_littlebutton";
+body {
+   width: 100%;
+   height: auto;
+   background-color: #878787;
+}
+.container {
+   margin: 0 auto;
+   width: 1310px;
+   height: 800px;
+   padding: 44px 128px 80px 60px;
+   box-sizing: border-box;
+}
+button {
+   display: flex;
+}
+.big-button {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.big-button__download {
+   width: 700px;
+   height: 200px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   gap: 24px 20px;
+}
+.big-button__tab{
+   display: grid;
+   width: 320px;
+   height: 200px;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+}
