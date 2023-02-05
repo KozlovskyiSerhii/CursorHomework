@@ -180,7 +180,8 @@ html {
     margin-bottom: 8%;
   }
   .two__button {
-    width: 94%;
+    width: 80%;
+    margin: 20px auto -20px;
   }
   .left-section-title {
     font-family: "Roboto", sans-serif;
@@ -196,6 +197,10 @@ html {
 @media screen and (max-width: 1010px) {
   .main-row {
     padding: 0% 5% 0% 5%;
+  }
+  .btn__one {
+    width: 55%;
+    margin-right: 5px;
   }
 }
 .main-row {
