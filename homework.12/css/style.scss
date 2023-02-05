@@ -150,7 +150,11 @@ html {
 }
 }
 
-
+@media screen and (max-width:  1010px) {
+   .main-row {
+      padding: 0% 5% 0% 5%; ;
+   }
+}
 
 
 .main-row {
@@ -246,6 +250,11 @@ html {
 .btn4 {
    @include text(500, 14px, 24px, #FFFFFF);
    @include button(150px, 32px, #111B47, 2px);
+}
+@media screen and (max-width:  1010px) {
+   .main-row {
+      padding: 0% 5% 0% 5%; ;
+   }
 }
 @media screen and (max-width: 720px) {
    .main-row {
