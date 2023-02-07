@@ -269,10 +269,6 @@ button {
     display: inline-block;
     vertical-align: top;
 }
-.description img {
-   width: 400px !important;
-}
-
 .about .description.double {
     width: 65%;
 }
