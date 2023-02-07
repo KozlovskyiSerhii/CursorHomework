@@ -1,7 +1,7 @@
 .buttons-five {
    @include border-back ($blue, none);
    & p {
-      @include text(500, 15px, 18px, #ffffff);
+      @include text(500, 15px, 18px, $white);
    }
    & .download-icon {
       stroke: $white;
@@ -10,25 +10,25 @@
 .buttons-six {
    @include border-back ($light-grey, none);
    & p {
-      @include text(500, 15px, 18px, #878787);
+      @include text(500, 15px, 18px, $grey);
    }
    & .download-icon {
       stroke: $grey;
    }
 }
 .buttons-seven {
-   @include border-back ($white, 1px solid #E0E0E0);
+   @include border-back ($white, 1px solid $black);
    & p {
-      @include text(500, 15px, 18px, #2C2C2C);
+      @include text(500, 15px, 18px, $black);
    }
    & .download-icon {
       stroke: $black;
    }
 }
 .buttons-eight {
-   @include border-back (#FFFFFF, 1px solid #18A0FB);
+   @include border-back ($white, 1px solid $blue);
    & p {
-      @include text(500, 15px, 18px, #18A0FB);
+      @include text(500, 15px, 18px, $blue);
    }
    & .download-icon {
       stroke: $blue;

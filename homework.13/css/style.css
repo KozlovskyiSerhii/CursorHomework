@@ -121,7 +121,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .buttons-five .download-icon {
   stroke: #FFFFFF;
@@ -145,7 +145,7 @@ body {
 
 .buttons-seven {
   background-color: #FFFFFF;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #2C2C2C;
 }
 .buttons-seven p {
   font-family: "Roboto", sans-serif;
@@ -186,7 +186,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .buttons-nine .download-icon {
   stroke: #FFFFFF;
@@ -212,7 +212,7 @@ body {
 .buttons-eleven {
   flex-direction: row-reverse;
   background-color: #FFFFFF;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #2C2C2C;
 }
 .buttons-eleven p {
   font-family: "Roboto", sans-serif;
