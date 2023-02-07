@@ -1,11 +1,8 @@
-.download-icon {
-  stroke: #00D200;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 body {
   width: 100%;
   height: auto;
-  background-color: #878787;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
@@ -16,18 +13,44 @@ body {
   box-sizing: border-box;
 }
 
-button {
-  display: flex;
+.size-buttons {
+  margin-bottom: 26px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2C2C2C;
 }
 
-.big-button {
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.big-buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+.big-buttons__items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 144px;
+  height: 46px;
+  background: #18A0FB;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  padding: 0;
+}
 
-.big-button__download {
+.big-buttons__download {
   width: 700px;
   height: 200px;
   display: grid;
@@ -36,10 +59,186 @@ button {
   gap: 24px 20px;
 }
 
-.big-button__tab {
+.big-buttons__tab {
   display: grid;
   width: 320px;
   height: 200px;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(3, 1fr);
+}
+
+.buttons-one {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background-color: #18A0FB;
+  border: none;
+}
+
+.buttons-two {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #878787;
+  background-color: rgba(224, 224, 224, 0.3);
+  border: none;
+}
+
+.buttons-three {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2C2C2C;
+  background-color: #FFFFFF;
+  border: 1px solid #878787;
+}
+
+.buttons-four {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #18A0FB;
+  background-color: #FFFFFF;
+  border: 1px solid #18A0FB;
+}
+
+.buttons-five {
+  background-color: #18A0FB;
+  border: none;
+}
+.buttons-five p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.buttons-five .download-icon {
+  stroke: #FFFFFF;
+}
+
+.buttons-six {
+  background-color: rgba(224, 224, 224, 0.3);
+  border: none;
+}
+.buttons-six p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #878787;
+}
+.buttons-six .download-icon {
+  stroke: #878787;
+}
+
+.buttons-seven {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+}
+.buttons-seven p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2C2C2C;
+}
+.buttons-seven .download-icon {
+  stroke: #2C2C2C;
+}
+
+.buttons-eight {
+  background-color: #FFFFFF;
+  border: 1px solid #18A0FB;
+}
+.buttons-eight p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #18A0FB;
+}
+.buttons-eight .download-icon {
+  stroke: #18A0FB;
+}
+
+.buttons-nine {
+  flex-direction: row-reverse;
+  background-color: #18A0FB;
+  border: none;
+}
+.buttons-nine p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.buttons-nine .download-icon {
+  stroke: #FFFFFF;
+}
+
+.buttons-ten {
+  flex-direction: row-reverse;
+  background-color: rgba(224, 224, 224, 0.3);
+  border: none;
+}
+.buttons-ten p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #878787;
+}
+.buttons-ten .download-icon {
+  stroke: #878787;
+}
+
+.buttons-eleven {
+  flex-direction: row-reverse;
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+}
+.buttons-eleven p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2C2C2C;
+}
+.buttons-eleven .download-icon {
+  stroke: #2C2C2C;
+}
+
+.buttons-twelve {
+  flex-direction: row-reverse;
+  background-color: #FFFFFF;
+  border: 1px solid #18A0FB;
+}
+.buttons-twelve p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #18A0FB;
+}
+.buttons-twelve .download-icon {
+  stroke: #18A0FB;
 }

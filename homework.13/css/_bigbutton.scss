@@ -1,3 +1,16 @@
-.download-icon {
-   stroke: $green;
+.buttons-one {
+   @include text(500, 15px, 18px, $white);
+   @include border-back ($blue, none);
+}
+.buttons-two {
+   @include text(500, 15px, 18px, $grey);
+   @include border-back ($light-grey, none);
+}
+.buttons-three {
+   @include text(500, 15px, 18px, $black);
+   @include border-back ($white, 1px solid $grey);
+}
+.buttons-four {
+   @include text(500, 15px, 18px, $blue);
+   @include border-back ($white, 1px solid $blue);
 }

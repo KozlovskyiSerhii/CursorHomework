@@ -1,0 +1,51 @@
+.buttons-nine {
+   flex-direction: row-reverse;
+   @include border-back ($blue, none);
+
+   & p {
+      @include text(500, 15px, 18px, #ffffff);
+   }
+
+   & .download-icon {
+      stroke: $white;
+   }
+}
+
+.buttons-ten {
+   flex-direction: row-reverse;
+   @include border-back ($light-grey, none);
+
+   & p {
+      @include text(500, 15px, 18px, #878787);
+   }
+
+   & .download-icon {
+      stroke: $grey;
+   }
+}
+
+.buttons-eleven {
+   flex-direction: row-reverse;
+   @include border-back ($white, 1px solid #E0E0E0);
+
+   & p {
+      @include text(500, 15px, 18px, #2C2C2C);
+   }
+
+   & .download-icon {
+      stroke: $black;
+   }
+}
+
+.buttons-twelve {
+   flex-direction: row-reverse;
+   @include border-back (#FFFFFF, 1px solid #18A0FB);
+
+   & p {
+      @include text(500, 15px, 18px, #18A0FB);
+   }
+
+   & .download-icon {
+      stroke: $blue;
+   }
+}

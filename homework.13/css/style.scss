@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 $blue: #18A0FB;
 $grey: #878787;
 $light-grey: rgba(224, 224, 224, 0.3);
@@ -7,9 +7,10 @@ $red: #FF3E1D;
 $black: #2C2C2C;
 $green:#00D200;
 
-@mixin button($fd, $width, $tall, $color, $radius) {
+@mixin button($width, $tall, $color, $radius){
    display: flex;
-   flex-direction: $fd;
+   justify-content: space-evenly;
+   align-items: center;
    width: $width;
    height: $tall;
    background: $color;
@@ -22,14 +23,18 @@ $green:#00D200;
    font-size: $fz;
    line-height: $lh;
    color: $text-col;
+
 }
-@import "_bigbutton";
-@import "_littlebutton";
+@mixin border-back ($bc,$br) {
+      background-color: $bc;
+         border: $br;
+}
 body {
    width: 100%;
    height: auto;
-   background-color: #878787;
+   font-family: 'Inter', sans-serif;
 }
+
 .container {
    margin: 0 auto;
    width: 1310px;
@@ -37,16 +42,30 @@ body {
    padding: 44px 128px 80px 60px;
    box-sizing: border-box;
 }
-button {
-   display: flex;
+.size-buttons {
+   margin-bottom: 26px;
+   @include text(600, 25px, 30px, $black);
 }
-.big-button {
+.buttons {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   cursor: pointer;
+}
+.big-buttons {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   &__items {
+      @include button(144px, 46px, #18A0FB, 5px);
+      box-sizing: border-box;
+         border: none;
+         outline: none;
+         padding: 0;
+   }
 }
-.big-button__download {
+.big-buttons__download {
    width: 700px;
    height: 200px;
    display: grid;
@@ -54,10 +73,15 @@ button {
    grid-template-rows: repeat(3, 1fr);
    gap: 24px 20px;
 }
-.big-button__tab{
+.big-buttons__tab{
    display: grid;
    width: 320px;
    height: 200px;
    grid-template-columns: repeat(1, 1fr);
    grid-template-rows: repeat(3, 1fr);
+
 }
+@import "_bigbutton";
+@import "_bigbutton-1";
+@import "_bigbutton-2";
+@import "_littlebutton";
