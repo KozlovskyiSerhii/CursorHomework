@@ -5,7 +5,7 @@ img {
 
 html, body, .wrapper {
     min-height: 100% !important;
-    height: 100%;
+    height: auto;
 }
 
 body {
@@ -178,7 +178,7 @@ button {
 }
 
 .main-screen img {
-    width: 90%;
+    width: 100%;
 }
 
 .main-screen .h1 {
@@ -268,6 +268,9 @@ button {
     width: 35%;
     display: inline-block;
     vertical-align: top;
+}
+.description img {
+   width: 400px !important;
 }
 
 .about .description.double {
