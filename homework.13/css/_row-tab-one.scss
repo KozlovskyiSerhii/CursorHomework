@@ -1,0 +1,32 @@
+.big-buttons__tab--row-one {
+   display: flex;
+   width: 168px;
+   height: 48px;
+   &--tab-one {
+      @include button(56px, 48px, $blue, 5px 0px 0px 5px);
+      @include border-back ($blue, none);
+      padding: 0;
+      & .search-icon {
+         fill: $white;
+      }
+   }
+   &--tab-two {
+      @include button(56px, 48px, $white, 0px);
+      @include border-back ($white, 1px solid #E0E0E0);
+      padding: 0;
+      
+      & .download-icon {
+         stroke: $black;
+      }
+   }
+   &--tab-three {
+      @include button(56px, 48px, $white, 0px 5px 5px 0px);
+      @include border-back ($white, 1px solid #E0E0E0);
+      padding: 0;
+
+      & .archive-icon {
+         stroke: $black;
+      }
+   }
+
+}
