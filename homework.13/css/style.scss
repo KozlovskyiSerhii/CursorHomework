@@ -26,8 +26,8 @@ $green:#00D200;
 
 }
 @mixin border-back ($bc,$br) {
-      background-color: $bc;
-         border: $br;
+   background-color: $bc;
+   border: $br;
 }
 body {
    width: 100%;
@@ -37,12 +37,13 @@ body {
 
 .container {
    margin: 0 auto;
-   width: 1310px;
+   max-width: 1310px;
    height: 800px;
    padding: 44px 128px 80px 60px;
    box-sizing: border-box;
 }
 .size-buttons {
+   width: 100%;
    margin-bottom: 26px;
    @include text(600, 25px, 30px, $black);
 }
@@ -57,6 +58,7 @@ body {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 75px;
    &__items {
       @include button(144px, 46px, #18A0FB, 5px);
       box-sizing: border-box;
@@ -66,17 +68,49 @@ body {
    }
 }
 .big-buttons__download {
-   width: 700px;
+   max-width: 700px;
    height: 200px;
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: repeat(3, 1fr);
    gap: 24px 20px;
+   margin-right: 10%;
 }
 .big-buttons__tab{
    display: grid;
    width: 320px;
    height: 200px;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+
+}
+.little-buttons {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 50px;
+   &__items {
+      @include button(111px, 36px, #18A0FB, 5px);
+      box-sizing: border-box;
+         border: none;
+         outline: none;
+         padding: 0;
+   }
+}
+.little-buttons__download {
+   max-width: 610px;
+   height: 150px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   gap: 20px 53px;
+   margin-right: 10%;
+}
+.little-buttons__tab{
+   display: grid;
+   width: 174px;
+   height: 150px;
    grid-template-columns: repeat(1, 1fr);
    grid-template-rows: repeat(3, 1fr);
 
