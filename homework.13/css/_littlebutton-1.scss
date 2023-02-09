@@ -1,0 +1,47 @@
+.little-buttons-five {
+   @include border-back ($blue, none);
+
+   & p {
+      @include text(500, 13px, 16px, $white);
+   }
+
+   & .download-icon {
+      stroke: $white;
+   }
+}
+
+.little-buttons-six {
+   @include border-back ($light-grey, none);
+
+   & p {
+      @include text(500, 13px, 16px, $grey);
+   }
+
+   & .download-icon {
+      stroke: $grey;
+   }
+}
+
+.little-buttons-seven {
+   @include border-back ($white, 1px solid $border-col);
+
+   & p {
+      @include text(500, 13px, 16px, $black);
+   }
+
+   & .download-icon {
+      stroke: $black;
+   }
+}
+
+.little-buttons-eight {
+   @include border-back ($white, 1px solid $blue);
+
+   & p {
+      @include text(500, 13px, 16px, $blue);
+   }
+
+   & .download-icon {
+      stroke: $blue;
+   }
+}

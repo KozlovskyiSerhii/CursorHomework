@@ -8,7 +8,7 @@
 }
 .buttons-three {
    @include text(500, 15px, 18px, $black);
-   @include border-back ($white, 1px solid $grey);
+   @include border-back ($white, 1px solid $border-col);
 }
 .buttons-four {
    @include text(500, 15px, 18px, $blue);

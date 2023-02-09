@@ -17,7 +17,7 @@
    }
 }
 .buttons-seven {
-   @include border-back ($white, 1px solid $black);
+   @include border-back ($white, 1px solid $border-col);
    & p {
       @include text(500, 15px, 18px, $black);
    }

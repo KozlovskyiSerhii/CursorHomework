@@ -1,0 +1,19 @@
+.little-buttons-one {
+   @include text(500, 13px, 16px, $white);
+   @include border-back ($blue, none);
+}
+
+.little-buttons-two {
+   @include text(500, 13px, 16px, $grey);
+   @include border-back ($light-grey, none);
+}
+
+.little-buttons-three {
+   @include text(500, 13px, 68px, $black);
+   @include border-back ($white, 1px solid $border-col);
+}
+
+.little-buttons-four {
+   @include text(500, 13px, 16px, $blue);
+   @include border-back ($white, 1px solid $blue);
+}

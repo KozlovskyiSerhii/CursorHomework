@@ -6,6 +6,7 @@ $white:#FFFFFF;
 $red: #FF3E1D;
 $black: #2C2C2C;
 $green:#00D200;
+$border-col: #E0E0E0;
 
 @mixin button($width, $tall, $color, $radius){
    display: flex;
@@ -87,7 +88,7 @@ body {
 .little-buttons {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-evenly;
    align-items: center;
    margin-bottom: 50px;
    &__items {
@@ -118,8 +119,15 @@ body {
 @import "_bigbutton";
 @import "_bigbutton-1";
 @import "_bigbutton-2";
-@import "_littlebutton";
 @import "_row-tab-one";
 @import "_row-tab-two";
 @import "_row-tab-three";
-
+@import "_littlebutton";
+@import "_littlebutton-1";
+@import "_littlebutton-2";
+@import "_searcicon";
+@import "_little-buttons__tab-1";
+@import "_little-buttons__tab-2";
+@import "_little-buttons__tab-3";
+@import "_tag__big";
+@import "_tag__little";

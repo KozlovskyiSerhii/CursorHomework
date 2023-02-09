@@ -1,0 +1,60 @@
+.tag {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 142px;
+   height: 70px;
+   &__big {
+      width: 142px;
+      height: 28px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+         &--one {
+            @include button(65px, 28px, $white, 5px);
+            @include border-back ($white, 1px solid $border-col);
+               &--text {
+                  @include text(500, 13px, 16px, $black);
+               }
+               & .cross-icon {
+                  fill: black;
+                  stroke: $white;
+               }
+         }
+         &--two {
+            @include button(65px, 28px, $blue, 5px);
+            @include border-back ($blue, none);
+               &--text {
+               @include text(500, 13px, 16px, $white);
+               }
+                  & .cross-icon {
+                     stroke: $blue;
+                     fill: $white;
+                     border: 1px solid #FFFFFF;
+               }
+               }
+   }
+   &__little {
+      width: 127px;
+      height: 28px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      &--one {
+            @include button(51px, 28px, $white, 5px);
+            @include border-back ($white, 1px solid $border-col);
+      
+            &--text {
+               @include text(500, 13px, 16px, $black);
+            }
+         }
+      
+         &--two {
+            @include button(51px, 28px, $blue, 5px);
+            border: none;
+               &--text {
+                  @include text(500, 13px, 16px, $white);
+               }
+         }
+   }
+}
