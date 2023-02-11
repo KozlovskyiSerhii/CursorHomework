@@ -1,3 +1,33 @@
-font-family: 'Major Mono Display', monospace;
-font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;
+$big-numb: rgba(255, 255, 255, 0.13);
+$yellow: #D3BA74;
+$light-grey: rgba(255, 255, 255, 0.8);
+$white: #FFFFFF;
+$dark-green: rgba(10, 30, 39, 1);
+$line-color:rgba(255, 255, 255, 0.2);
+$major: 'Major Mono Display', monospace;
+$playfair: 'Playfair Display', serif;
+$poppins: 'Poppins', sans-serif;
+
+@mixin button($width, $tall, $radius) {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   width: $width;
+   height: $tall;
+   border-radius: $radius;
+}
+
+@mixin text($font-family, $fw, $fz, $lh, $text-col) {
+   font-family: $font-family;
+   font-style: normal;
+   font-weight: $fw;
+   font-size: $fz;
+   line-height: $lh;
+   color: $text-col;
+}
+
+@mixin btn-bkgrd($bc, $br) {
+   background-color: $bc;
+   border: $br;
+}
