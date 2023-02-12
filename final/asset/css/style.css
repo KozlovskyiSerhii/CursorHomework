@@ -17,6 +17,7 @@ button {
 }
 
 body {
+  background-color: rgb(10, 30, 39);
   scroll-behavior: smooth;
   width: 100%;
   height: auto;
