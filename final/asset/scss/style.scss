@@ -1,6 +1,7 @@
 @import "_font";
 @import "_ functions";
 
+
 *{
    box-sizing: border-box;
 }
@@ -20,6 +21,7 @@ body {
    height: auto;
 }
 .container {
+   max-width: 2000px;
    width: 100%;
    height: auto;
    margin: 0 auto;
@@ -51,9 +53,6 @@ body {
          &--text{
             @include text($poppins, 300, 16px, 24px, $light-grey);
             margin-bottom: 40px;
-         }
-         &--btn-margin{
-            margin-bottom: 33%;
          }
       }
 }
@@ -225,6 +224,10 @@ body {
          }
    }
 }}
+
+
+
 .margin-footer {
    margin-top: 3.2%;
 }
+@import "_responsive";

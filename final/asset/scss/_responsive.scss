@@ -1,0 +1,255 @@
+.container {
+   background: linear-gradient(0deg, #0A1E27 77%, rgba(10, 30, 39, 0.4) 87%, rgba(10, 30, 39, 0) 100%), url(../../Img/background-1.png);
+   background-repeat: no-repeat, no-repeat;
+   background-size: 100% 116%, auto 1200px;
+   background-position: 0% 0%, 0% 0%;
+   @media screen and (max-width: 2000px) {
+            background: linear-gradient(0deg, #0A1E27 80%, rgba(10, 30, 39, 0.4) 87%, rgba(10, 30, 39, 0) 100%), url(../../Img/background-1.png);
+               background-repeat: no-repeat, no-repeat;
+               background-size: 100% 116%, 100% 24%;
+      }
+      @media screen and (max-width: 1560px) {
+         background: linear-gradient(0deg, #0A1E27 80%, rgba(10, 30, 39, 0.4) 89%, rgba(10, 30, 39, 0) 100%), url(../../Img/background-1.png);
+         background-size: 100% 116%, 100% 24%;
+         background-repeat: no-repeat, no-repeat;
+      }
+         @media screen and (max-width: calc(0.95*$md) ) {
+         background: linear-gradient(0deg, #0A1E27 83%, rgba(10, 30, 39, 0.4) 89%, rgba(10, 30, 39, 0) 94%), url(../../Img/background-1.png);
+         background-position: 0px 300px, 51% -4%;
+         background-repeat: no-repeat, no-repeat;
+      }
+}
+.header {
+   @media screen and (max-width: $md) {
+         padding: 2% 15px 0% 15px;
+      }
+
+   &__adventure {
+   @media screen and (max-width: $md) {
+         width: 100%;
+         text-align: center;
+      }
+   }
+
+   &__info {
+      @media screen and (max-width: $xl) {
+            width: 40%;
+         }
+      
+         @media screen and (max-width: $xl) {
+            width: 40%;
+         }
+      
+         @media screen and (max-width: $lg) {
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+         }
+      &--h1 {
+      @media screen and (max-width: $sm) {
+            width: 100%;
+            @include text($playfair, 400, 4em, 100%, $white);
+            text-align: center;
+         }
+      }
+      &--text {
+      @media screen and (max-width: $md) {
+            width: 100%;
+         }
+      }
+   }
+}
+
+.main {
+   @media screen and (max-width: $lg) {
+         padding: 3% 3% 0% 3%;
+         background-color: $dark-green;
+      }
+
+   &__about {
+      @media screen and (max-width: $lg) {
+         flex-direction: column !important;
+         align-items: center !important;
+         justify-content: center !important;
+      }
+
+      &--title {
+      @media screen and (max-width: $lg) {
+            width: 100%;
+            order: 2;
+         }
+      }
+      &--img {
+         @media screen and (max-width:$md){
+            width: 90%;
+            order: 1;
+            margin-bottom: 20px;
+         }
+      }
+   }
+   &__slider {
+      @media screen and (max-width:$md) {
+         justify-content: center;
+         align-items: center;
+      }
+         @media screen and (max-width: $lg) {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+         }
+         & img {
+            @media screen and (max-width:$lg){
+               width: 100%;
+            }
+         }
+   }
+
+   &__calculation {
+      @media screen and (max-width:$sm){
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         }
+      &--block {
+         &--amount {
+            @include text($poppins, 600, 100px, 110px, $big-numb);
+         }
+         &--denomination {
+            @include text($poppins, 700, 14px, 22px, $yellow);
+         }
+      }
+   }
+}
+   @media screen and (max-width: $md) {
+      .margin-one{
+         margin: 0px 0px 0px 0px !important;
+      }
+      }
+.text-section {
+   &--head{
+      @media screen and (max-width: $md){
+         margin-left: 35%;
+      }
+   }
+   &--big {
+      @media screen and (max-width: $lg){
+         width: 80%;
+      }
+            @media screen and (max-width: $md) {
+               width: 100%;
+               @include text($playfair, 400, 60px, 60px, $white);
+               text-align: center;
+            }
+      @media screen and (max-width: $sm) {
+         @include text($playfair, 400, 40px, 40px, $white);
+         text-align: center;
+         width: 100%;
+      }
+   }
+
+
+   &--text {
+      @include text($poppins, 300, 16px, 24px, $white);
+      width: 95%;
+      @media screen and (max-width: $lg) {
+            width: 80%;
+         }
+      
+         @media screen and (max-width: $md) {
+            width:90%;
+            text-align: center;
+         margin: 0 !important;
+         }
+   }
+}
+
+
+.number {
+         @media screen and (max-width: $md) {
+            @include text($poppins, 600, 6em, 100%, $big-numb);
+                        }
+
+}
+.margin-two {
+   @media screen and (max-width: $md){
+      margin: 0px 0px 0px 0px !important;
+   }
+}
+.section-row {
+   @media screen and (max-width: $md) {
+         padding-top: 5% !important;
+      }
+}
+.position-one {
+   @media screen and (max-width: $md) {
+   top: 60%;
+   left: 30%;
+         color: rgba(255, 255, 255, 0.33)
+      }
+}
+
+.position-two {
+   @media screen and (max-width: $md) {
+   top: 60%;
+   left: 30%;
+         color: rgba(255, 255, 255, 0.33)
+      }
+}
+
+.position-three {
+   @media screen and (max-width: $md) {
+   top: 60%;
+      left: 30%;
+         color: rgba(255, 255, 255, 0.33)
+      }
+}
+.footer {
+   background-color: $dark-green;
+      @media screen and (max-width:$lg){
+         padding: 0px 3.4% 3% 3.4%;
+   }
+   &__middle {
+      @media screen and (max-width:$md) {
+            padding: 0px 3.4% 3% 3.4%;
+            flex-direction: column;
+         }
+
+      &--title {
+         @media screen and (max-width:$md) {
+            align-items: center;
+            width: 100%;
+            order: 2;
+         }              
+         &--h2 {
+         @media screen and (max-width:$md) {
+            @include text($playfair, 400, 45px, 100%, $white);
+            text-align: center;
+            width: 100%;
+            margin-top: 12px;
+            }
+         }
+      }
+      &--img {
+         @media screen and (max-width:$md) {
+         margin-top: 15%;
+         width: 95%;
+         order: 1;
+         }
+      }
+      &--end {
+         @media screen and (max-width:$sm){
+            flex-direction: column;
+         }
+         &--social-media {
+               @media screen and (max-width:$md){
+                  width: 25%;
+               }
+                  @media screen and (max-width:$sm){
+                  width: 60%;
+               }
+         }
+      }
+   }
+}

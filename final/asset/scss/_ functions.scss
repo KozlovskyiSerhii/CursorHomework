@@ -7,6 +7,11 @@ $line-color:rgba(255, 255, 255, 0.2);
 $major: 'Major Mono Display', monospace;
 $playfair: 'Playfair Display', serif;
 $poppins: 'Poppins', sans-serif;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
 
 @mixin button($width, $tall, $radius) {
    display: flex;
